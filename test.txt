@@ -6,3 +6,5 @@ bye
 take care
 ok 
 good
+fine
+thank you
