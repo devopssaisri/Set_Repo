@@ -14,7 +14,7 @@ RUN apt-get update \
 COPY ./html /var/www/html/
 
 # Expose HTTP port
-EXPOSE 80
+EXPOSE 90
 
 # Basic healthcheck to ensure Apache responds
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
